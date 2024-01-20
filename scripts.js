@@ -131,7 +131,7 @@ function trocaDeBandera() {
 
     if (tiposDeMonedas.value == "Bolivar") {
         nombresDemodenas.innerHTML = "Bolivar Soberano"
-        trocaDeBanderas.src = "./assets/venezuela1.jpg"
+        trocaDeBanderas.src = "./assets/Venezuela.jpg"
     }
 
     if (tiposDeMonedas.value == "Bitcoin") {
