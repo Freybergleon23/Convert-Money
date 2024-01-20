@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+body {
+    background-image: url(./assets/Fondo.jpg);
+    background-size: 55vw auto;
+
+}
+
+.logo {
+    width: 370px;
+    height: 330px;
+    display: block;
+    margin: 30px auto;
+
+}
+
+main {
+    width: 375px;
+    border-radius: 20px;
+    background: #F4F4F4;
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;
+}
+
+label {
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+select,
+input {
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #555;
+    cursor: pointer;
+
+}
+
+button {
+    border-radius: 5px;
+    background: #509e38;
+    height: 48px;
+    width: 100%;
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    border-radius: 20px;
+    border: 3px solid #509e38;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    margin: 12px auto;
+    display: block;
+    width: 52px;
+    height: 52px;
+
+}
+
+.flecha {
+    width: 35px;
+    height: 55px;
+    margin: 15px auto;
+}
+
+.nombres-moneda,
+.nombres-modena-principal {
+    color: #777;
+    font-size: 14px;
+    text-align: center;
+}
+
+.resultado-real,
+.resultado-dolar {
+    color: #555;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
