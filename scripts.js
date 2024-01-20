@@ -104,7 +104,7 @@ function convertValores() {
                 currency: "VEF"
             }).format(inputValores)
     }
-    
+
     nombreDeMonedaPrincipal()
 }
 
@@ -131,7 +131,7 @@ function trocaDeBandera() {
 
     if (tiposDeMonedas.value == "Bolivar") {
         nombresDemodenas.innerHTML = "Bolivar Soberano"
-        trocaDeBanderas.src = "./assets/venezuela.jpg"
+        trocaDeBanderas.src = "./assets/venezuela1.jpg"
     }
 
     if (tiposDeMonedas.value == "Bitcoin") {
@@ -173,7 +173,7 @@ function trocaDeBandera() {
 
         if (selectPrincipal == "bolivar") {
             nombreDeMonedaPrincipal.innerHTML = "Bolivares Soberano"
-            banderasPrincipales.src = "./assets/venezuela.jpg"
+            banderasPrincipales.src = "./assets/venezuela1.jpg"
         }
 
         if (selectPrincipal == "bitcoin") {
