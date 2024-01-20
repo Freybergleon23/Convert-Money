@@ -173,7 +173,7 @@ function trocaDeBandera() {
 
         if (selectPrincipal == "bolivar") {
             nombreDeMonedaPrincipal.innerHTML = "Bolivares Soberano"
-            banderasPrincipales.src = "./assets/venezuela1.jpg"
+            banderasPrincipales.src = "./assets/Venezuela.jpg"
         }
 
         if (selectPrincipal == "bitcoin") {
